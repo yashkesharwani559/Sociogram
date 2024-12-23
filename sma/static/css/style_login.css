@@ -1,0 +1,49 @@
+
+#page {
+
+    position: relative;
+    background-color: #D3D3D3;
+    z-index: 1;
+    height: 100vh;
+}
+
+#form {
+    background-color: white;
+    margin-top: 3rem;
+    border: 2px solid rgb(198, 195, 195);
+    border-radius: 0.1rem;
+}
+
+#form-head {
+    font-size: 1.3vw;
+    text-align: center;
+    margin-top: 1vh;
+    font-weight: bold;
+}
+
+#login {
+    color: #583EFB;
+    text-decoration: 5px solid underline;
+    text-decoration-color: rgb(62, 254, 107);
+    text-decoration-skip-ink: none;
+}
+
+#register>a {
+    text-decoration-line: none;
+    color: #8BF3E1;
+    cursor: pointer;
+}
+
+#username, #password {
+    border-color: #90FB8B;
+}
+
+#submit {
+    background-color: #8BF3E1;
+    margin-left: 8rem;
+    font-family: sans-serif;
+}
+
+.error{
+    font-size: 0.8rem;
+}
